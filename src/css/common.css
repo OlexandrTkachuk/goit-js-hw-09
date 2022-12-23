@@ -32,3 +32,16 @@ img {
 .value {
   font-size: 16px;
 }
+
+.item {
+  width: 50px;
+  height: 50px;
+  border: 1px solid tomato;
+  outline: auto;
+}
+
+.js-container {
+  display: flex;
+  border: 1px solid black;
+  width: 153px;
+}
