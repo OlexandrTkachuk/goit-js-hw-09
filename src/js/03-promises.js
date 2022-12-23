@@ -17,7 +17,7 @@ function onSubmit(event) {
   const step = +refs.step.value;
   const amount = +refs.amount.value;
 
-  for (let i = 1; i < amount + 1; i++) {
+  for (let i = 1; i <= amount; i++) {
     const delayStep = +(delay + step * (i - 1));
 
     createPromise(i, delayStep).then(onSuccess).catch(onError);
